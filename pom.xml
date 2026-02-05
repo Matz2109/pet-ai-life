@@ -18,7 +18,10 @@
     <description>Pet Assistant Life Backend Platform</description>
 
     <properties>
-        <java.version>21</java.version> <spring-ai.version>1.0.0-M5</spring-ai.version> </properties>
+        <java.version>21</java.version> 
+		<spring-ai.version>1.0.0-M5</spring-ai.version> 
+		<lombok.version>1.18.36</lombok.version>
+	</properties>
 
     <dependencies>
         <dependency>
@@ -62,7 +65,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <scope>provided</scope>
         </dependency>
         
         <dependency>
